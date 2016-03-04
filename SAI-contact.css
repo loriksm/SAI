@@ -1,0 +1,108 @@
+
+
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+
+nav {
+  background-color: lightblue;
+  margin: 0px;
+  border-bottom-color: blue;
+  font-size: 25px;
+ }
+
+
+ul {
+  margin-left: 40px;
+}
+
+.liu { 
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  font-family: Helvetica-bold, sans-serif;
+  color: white;
+}
+
+.inline {
+	display: inline;
+
+}
+
+.picture {
+  width: 120px;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+.logo {
+  /*background-color: white;*/
+  height: 50px;
+  /*width: 100%;*/
+  margin-left: 40px;
+}
+
+.navi {
+  border: 5px;
+  border-top-color: blue;
+	background-color: lightblue;
+	text-align: center;
+  font-size: 20px;
+  font-family: Helvetica-bold, sans-serif;
+
+}
+
+li {
+	list-style-type: none;
+  font-family: Helvetica-bold, sans-serif;
+  color: lightblue;
+  margin-right: 50px; 
+  position: static;
+  }
+
+h1 {
+  font-family: Helvetica-bold, sans-serif;
+  color: lightblue;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 40px;
+}
+  
+  .link { 
+    text-align: center;
+
+  }
+
+
+  .team { 
+    height: 350px;
+    width: 450px;
+    float: right;
+    margin-top: 0px;
+
+
+  }
+
+.dog {
+  background-size: 100%;
+}
+
+p {
+  font-family: Helvetica-bold, sans-serif;
+  font-size: 25px
+}
+
+.paragraph {
+  float: right;
+  height: 300px;  
+  width: 400px;
+  margin-right: 50px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
