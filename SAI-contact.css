@@ -1,13 +1,5 @@
 
 
-
-header {
-  position: fixed;
-  width: 100%;
-  background-color: white;
-}
-
-
 nav {
   background-color: lightblue;
   margin: 0px;
@@ -49,19 +41,22 @@ ul {
 
 .navi {
   border: 5px;
-  border-top-color: blue;
 	background-color: lightblue;
 	text-align: center;
   font-size: 20px;
-  font-family: Helvetica-bold, sans-serif;
+  font-family: 'Inder', sans-serif; 
+  line-height: 28px; 
+  margin-bottom: 15px; 
+  color: #666;
 
 }
 
 li {
 	list-style-type: none;
-  font-family: Helvetica-bold, sans-serif;
-  color: lightblue;
+  font-family: 'Inder', sans-serif; 
+ color: #666;
   margin-right: 50px; 
+  line-height: 28px; 
   position: static;
   }
 
@@ -80,17 +75,14 @@ h1 {
 
 
   .team { 
-    height: 350px;
-    width: 450px;
+    height: 300px;
+    width: 400px;
     float: right;
     margin-top: 0px;
+    margin-bottom: 0px;
 
 
   }
-
-.dog {
-  background-size: 100%;
-}
 
 p {
   font-family: Helvetica-bold, sans-serif;
@@ -103,6 +95,10 @@ p {
   width: 400px;
   margin-right: 50px;
   margin-top: 0px;
-  text-align: center;
-  text-decoration: underline;
-}
+  color: #685206; 
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px; 
+  line-height: 24px;
+  text-align: justify; 
+  text-justify: inter-word;
+  }
