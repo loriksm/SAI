@@ -1,0 +1,104 @@
+
+
+nav {
+  background-color: lightblue;
+  margin: 0px;
+  border-bottom-color: blue;
+  font-size: 25px;
+ }
+
+
+ul {
+  margin-left: 40px;
+}
+
+.liu { 
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  font-family: Helvetica-bold, sans-serif;
+  color: white;
+}
+
+.inline {
+	display: inline;
+
+}
+
+.picture {
+  width: 120px;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+.logo {
+  /*background-color: white;*/
+  height: 50px;
+  /*width: 100%;*/
+  margin-left: 40px;
+}
+
+.navi {
+  border: 5px;
+	background-color: lightblue;
+	text-align: center;
+  font-size: 20px;
+  font-family: 'Inder', sans-serif; 
+  line-height: 28px; 
+  margin-bottom: 15px; 
+  color: #666;
+
+}
+
+li {
+	list-style-type: none;
+  font-family: 'Inder', sans-serif; 
+ color: #666;
+  margin-right: 50px; 
+  line-height: 28px; 
+  position: static;
+  }
+
+h1 {
+  font-family: Helvetica-bold, sans-serif;
+  color: lightblue;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 40px;
+}
+  
+  .link { 
+    text-align: center;
+
+  }
+
+
+  .team { 
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+  }
+
+p {
+  font-family: Helvetica-bold, sans-serif;
+  font-size: 25px
+}
+
+.paragraph {
+  float: right;
+  height: 300px;  
+  width: 400px;
+  margin-right: 50px;
+  margin-top: 0px;
+  color: #685206; 
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px; 
+  line-height: 24px;
+  text-align: justify; 
+  text-justify: inter-word;
+  }
