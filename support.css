@@ -26,12 +26,14 @@ h1 {
   text-align: left;
   margin-left: 40px;
   line-height: 20px;
+  padding-bottom: 0;
 }
 
 h2 {
   color: lightblue;
   font-size: 20px;
-  font-family: Helvetica-bold, sans-serif;  padding-top: none;
+  font-family: Helvetica-bold, sans-serif;  
+  padding-top: none;
 }
 
 h3 {
@@ -64,9 +66,11 @@ main {
 .sidebar_text {
   color: black;
   font-size: 15px;
-  padding-left: 20px;
+}
+
+.indent-text {
+  padding-left: 10px;
   padding-right: 10px;
-  text-indent: -5px;
 }
 
 .caption {
@@ -79,7 +83,7 @@ main {
 img {
 	float: left;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 
 div.img-container-left {
@@ -100,7 +104,12 @@ div.img-container-right {
 /*  width: 125px;
 */  width: 100%;
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: 40px;
+}
+
+#linkcolor {
+  color: red;
 }
 
 nav {
@@ -110,7 +119,7 @@ nav {
 
 ul {
   list-style-type: none;
-  margin-left: 10px;
+  margin-left: 40px;
   padding: 0;
   overflow: hidden;
   background-color: lightblue;
@@ -163,7 +172,7 @@ li a:hover {
 
 a:link {
   text-decoration: none;
-  color: lightblue;
+  color: blue;
 }
 
 a:hover {
