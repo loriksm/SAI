@@ -102,112 +102,32 @@ li a:active {
   float: left;
 }
 
-p {
-  font-size: 15px;
-}
-
-i {
-  font-style: italic;
-}
-
-h4 {
-  height: 30px;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding-top: 15px;
-  margin-top: 0;
-}
-
 main {
   padding-top: 220px;
   width: 100%;
 }
 
-.quicklinks {
-  background-color: lightblue;
-  float: right;
-  top: 270px;
-  margin-right: 30px;
-  width:25%;
-  color: black;
-}
-
-h3 {
-  color: black;
-}
-
-.sidebar_text {
-  color: black;
-  font-size: 15px;
-}
-
-.indent-text {
-  padding-left: 10px;
-  padding-right: 10px;
+.team {
+  width: 75%;
+/*  float: center;
+*/  margin-left: 135px;
+  padding-top: 5px;
 }
 
 .caption {
   font-variant: small-caps;
   font-size: 18px;
-  padding-bottom: 5px;
-
+  padding-bottom: 15px;
+  margin-left: 130px;
 }
 
-img {
-/*	float: left;
-*/	margin-right: 10px;
-	margin-bottom: 6px;
-}
-
-div.img-container-left {
-  width: 350px;
-  float: left;
-  margin-right: 10px;
-}
-
-div.img-container-right {
-  width: 350px;
-  float: right;
-  margin-left: 20px;
-}
-
-#linkcolor {
-  color: red;
-}
-
-.picture-left {
-  float: left;
-  width: 350px;
-  padding-top: 3px;
-  padding-right: 10px;
-}
-
-.picture-right {
-  float: right;
-  width: 350px;
-  padding-top: 3px;
-  padding-left: 10px;
-}
-
-a:link {
-  text-decoration: none;
-  color: blue;
-}
-
-a:hover {
-  color: blue;
-}
-
-.left-column {
-  float: left;
-  width: 57%;
-  margin-left: 140px;
-}
-
-.right-column {
-  float: left;
-  width: 25%;
-  margin-bottom: 5px;
-}
+.paragraph {
+  float: center;
+  margin-left: 130px;
+  color: #685206; 
+  font-size: 18px; 
+  line-height: 30px;
+  text-align: justify; 
+  text-justify: inter-word;
+  }
 
