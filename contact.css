@@ -24,33 +24,39 @@ header {
 
 .picture1 {
   width: 130px;
-  padding-top: 3px;
+  padding-top: 0px;
   padding-right: 10px;
   float: left;
 }
 
 .picture2 {
   height: 130px;
+  margin-left: 0;
   padding-right: 60px;
   float: right;
   z-index: 3;
 }
 
 h1 {
-  padding-top: 40px;
+  padding-top: 20px;
   color: #1b95bd;
   font-size: 44px;
   text-align: left;
   margin-left: 40px;
-  line-height: 20px;
+  margin-bottom: 8px;
+  line-height: 34px;
   padding-bottom: 0;
+  overflow: hidden;
 }
 
 h2 {
   color: lightblue;
-  font-size: 21px;
+  font-size: 20px;
   padding-top: none;
   color: #1b95bd;
+  line-height: 15px;
+  margin-top: 0;
+  overflow: hidden;
 }
 
 nav {
