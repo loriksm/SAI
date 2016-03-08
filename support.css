@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-image: url("background.jpeg");
+/*  background-image: url("background.jpeg");
+*/  background-color: #F0F0F0;
 }
 
 header {
@@ -50,11 +51,10 @@ h1 {
 }
 
 h2 {
-  color: lightblue;
   font-size: 20px;
   padding-top: none;
   color: #1b95bd;
-  line-height: 15px;
+  line-height: 18px;
   margin-top: 0;
   overflow: hidden;
 }

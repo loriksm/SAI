@@ -26,9 +26,9 @@
 
 			<nav>
 				<ul>
-					<li><a href="home.html" target="_blank">Home</a></li>
+					<li><a href="home.sai1.html" target="_blank">Home</a></li>
 					<li><a href="support.html" target="_blank">Support</a></li>
-					<li><a href="SAI-contact.html" target="_blank">Contact</a></li>
+					<li><a href="contact.html" target="_blank">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -55,37 +55,37 @@
 
 			<div class="paragraph">
 
-			<button id="help">How can I support?</button>
+			<button id="help" class="button-help">How can I support?</button>
 			<div id="here"></div>
 			<br>
 
 
 			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-			<div class="row">
-			<label for="name">Your name:</label>
-			<br>
-			<input id="name" class="input" name="name" type="text" value="" size="60" />
-			<br>
-			</div>
-			<div class="row">
-			<label for="email">Your email:</label>
-			<br>
-			<input id="email" class="input" name="email" type="text" value="" size="60" />
-			<br>
-			</div>
-			<div class="row">
-			<label for="message">Your message:</label>
-			<br>
-			<textarea id="message" class="input" name="message" rows="20" cols="100"></textarea>
-			<br>
-			</div>
-			<input id="submit_button" type="submit" value="Send email" />
+				<div class="row">
+					<label for="name">Your name:</label>
+					<br>
+					<input id="name" class="input form-padding" name="name" type="text" value="" size="60" />
+					<br>
+				</div>
+				<div class="row">
+					<label for="email">Your email:</label>
+					<br>
+					<input id="email" class="input form-padding" name="email" type="text" value="" size="60" />
+					<br>
+					</div>
+				<div class="row">
+					<label for="message">Your message:</label>
+					<br>
+					<textarea id="message" class="input" name="message" rows="20" cols="100"></textarea>
+					<br>
+				</div>
+				<input id="submit_button" class="button-help" type="submit" value="Send email" />
 			</form>				
 
 
 <script type="text/javascript">
 	document.getElementById("help").onclick=function() {	
-	document.getElementById("here").innerHTML="<ul><li>MAKE A CHANGE BY DONATING TO THE TEAM</li></ul><img src='images/alaska.jpg'>"; 
+	document.getElementById("here").innerHTML="<ul><li class='no-background'>MAKE A CHANGE BY DONATING TO THE TEAM</li></ul><img src='images/alaska.jpg'>"; 
 }
 </script>
 

@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  background-color: #F0F0F0 ;
+  font-weight: normal;
+  font-family: "Helvetica", sans-serif;
+}
+header {
+  background-color: white;
+  height: 140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0 auto;
+  display: inline;
+  color: #0066FF;
+  text-transform: uppercase;
+}
+nav {
+  width: 100%;
+  height: 31px;
+  margin: 0 auto;
+  background: #0066FF;
+  }
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 60%;
+    
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: blue;
+    
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+ li a:hover {
+  background-color: #111;
+}
+
+#right-bar {
+  float: left;
+  display: block;
+  margin: 5px 10px;
+  line-height: 70px;
+  text-align: center;
+  background-color: red;
+  width: 300px;
+  height: 70px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+#right-bar1 {
+  float: left;
+  font-family: "proxima-nova",Arial,sans-serif;
+  margin: 5px 10px;
+  line-height: 70px;
+  text-align: center;
+  background-color: orange;
+  width: 300px;
+  height: 70px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.right-bar3 {
+  float: left;
+  font-family: "proxima-nova",Arial,sans-serif;
+  margin: 5px 10px;
+  line-height: 70px;
+  background-color: purple;
+  width: 300px;
+  height: 70px;
+  font-size: 15px;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px 0px 200px;
+  
+  }
+#image {
+  margin: 0 0 30px 0;
+  text-decoration: none;
+  color: white;
+}
+
+.context {
+  float: left;
+  width: 700px;
+  height: 1200px;
+  border: 1px solid grey;
+  margin-left: 250px;
+  margin-top: 5px;
+  padding: 15px;
+  background-color: white;
+}
+.align {
+  float: left;
+  margin: 0;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
+
+#ul{
+
+  list-style-type: square;
+}
