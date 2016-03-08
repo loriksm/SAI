@@ -1,1 +1,100 @@
-<h1>CONTACT</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- 		<link rel="stylesheet" type="text/css" href="reset.css">
+ -->
+		<link rel="stylesheet" type="text/css" href="contact.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta charset="utf-8" />
+
+ 		<title>Lesson7_Team_Project_Contact</title>
+
+</head>
+
+<body>
+
+	<header>
+
+			<div class="logo">
+				<img class="picture1" src="images/sai_logo.png">
+				<img class="picture2" src="images/Husky-for-top.png">
+				<h1><strong>STUDENTS AGAINST IDITEROD</strong></h1>
+				<h2>MAKING THE RACE SAFER AND MORE HUMANE FOR SLED DOGS</h2>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="home.sai1.html" target="_blank">Home</a></li>
+					<li><a href="support.html" target="_blank">Support</a></li>
+					<li><a href="contact.html" target="_blank">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="link">				
+				<a href="https://www.Instagram.com" target="_blank">
+				<img class="picture3" src="images/facebook40.png"></a>
+
+				<a href="https://www.Instagram.com" target="_blank">
+				<img class="picture3" src="images/instagram40.png"></a>
+			</div>
+
+		</header>
+
+		<main>
+
+			<div>
+				<img class="team" src="images/team.jpg">
+			</div>
+
+			<div class="caption">
+				dogs deserve far better than a lifetime of isolation, cruelty, suffering, and death on the iditarod trail.
+			</div>
+
+
+			<div class="paragraph">
+
+			<button id="help" class="button-help">How can I support?</button>
+			<div id="here"></div>
+			<br>
+
+
+			<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="name">Your name:</label>
+					<br>
+					<input id="name" class="input form-padding" name="name" type="text" value="" size="60" />
+					<br>
+				</div>
+				<div class="row">
+					<label for="email">Your email:</label>
+					<br>
+					<input id="email" class="input form-padding" name="email" type="text" value="" size="60" />
+					<br>
+					</div>
+				<div class="row">
+					<label for="message">Your message:</label>
+					<br>
+					<textarea id="message" class="input" name="message" rows="20" cols="100"></textarea>
+					<br>
+				</div>
+				<input id="submit_button" class="button-help" type="submit" value="Send email" />
+			</form>				
+
+
+<script type="text/javascript">
+	document.getElementById("help").onclick=function() {	
+	document.getElementById("here").innerHTML="<ul><li class='no-background'>MAKE A CHANGE BY DONATING TO THE TEAM</li></ul><img src='images/alaska.jpg'>"; 
+}
+</script>
+
+</div>
+
+		</main>
+
+	</body>
+
+</html>
+
+
